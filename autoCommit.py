@@ -7,7 +7,7 @@ for i in range(ip):
     # os.system('git commit --allow-empty -m "New Commit at: $(date)"')
     os.system(f'git commit --allow-empty -m "Commit {i} of {ip}"')
 
-print("Commited " + str(ip) + " times")
+print("Commited " + str(ip + 1) + " times")
 
 if autoPush == "y":
     os.system('git push')
